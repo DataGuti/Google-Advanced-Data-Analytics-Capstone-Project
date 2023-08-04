@@ -1,7 +1,10 @@
 # Creating a Predictive Model for Employees Turnover using Logistic Regression and Machine Learning
 This is the final project for the Google Advanced Data Analytics Professional Certification. The aim of this project is to plan, analyze, construct and execute a predictive model that helps a company understand why their employees may leave and prevent it.
 
-This document will present a brief summary of the business case, an overview of the tasks that were
+This document will present a brief summary of the business case, an overview of the tasks that were conducted and some key metrics/results. However, to fully understand where the final results come from, it's necessary to explore the notebooks. The following order is recommended:
+  1) Salifort Motors - EDA
+  2) Logistic Regression Model
+  3) Random Forest Model
 
 ## Introducing the Business Case
 Salifort Motors'* senior leadership team is concerned because of how many employees are leaving the company (for the time being they won't make a difference between employees who resigned and the ones who were let go). This affects the work culture of the company, morale of employees and ends on high administrative and financial costs (since replacing people involves recruiting, training and upskilling).
@@ -78,10 +81,23 @@ Even though there's room to suspect this model is somewhat overfit (due to the h
 
 Again, the satisfaction level seems to be the most relevant metric when it comes to turnover rate. In this case, it's followed by the number of projects an employee is assigned to, the score they received on their last evaluation, their tenure and finally their average monthly hours. This model doesn't consider the other variables relevant for the result.
 
-## Results
-
 ## Conclusions
+
+The Random Forest predictive model has significantly outperformed the Logistic Regression one and shows a lot of potential to increase this organization's employee retention. 
+The key metric of both models is the satisfaction level, so the integrity of it should be measured to validate the models.
+It seems most problems could be fixed by improving the current management strategies of this organization. The recommendations should be carried equally across the whole organization, since there's no clear difference on leave rates across different departments.
 
 ## Actionable Next Steps and Recommendations
 
-## Future improvement on the models
+  - Conduct exit surveys to get more information on people that leaves the company (to balance the model).
+  - Create a policy to consistently measure and follow-up on satisfaction levels across the whole organization.
+  - Establish a limit to the amount of projects assigned to employees (preferably 3 or 4 projects).
+  - Try to achieve a balance of around 200 monthly hours on average by establishing a limit to the bonus hours (or reward them to make up for it).
+  - Review promotion policies, since there's a little percentage of employees who got promoted and it has a considerable correlation to the leave rate. Focus specially (but not only) on the people with 6 years or less within the company.
+  - Establish a policy to review salaries periodically, focusing specially on people with low and medium salaries.
+
+## Future lines of work on the models
+
+  - Both models are heavily influenced by the satisfaction level. If this metric wasn't available, both models should be refactored to adapt.
+  - Since there's no clear correlation between the department and the leave rate, the logistic regression model could be modified to ignore this feature and focus on the rest.
+  - With more data available on people that leave, the dataset could be balanced and both models could be reevaluated again to improve on the current model.
