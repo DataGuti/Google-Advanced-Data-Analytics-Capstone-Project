@@ -11,3 +11,6 @@ They asked their human resources department to conduct a massive survey among em
   2) Understand the main factors that lead to employees leaving the organization.
   3) Get some recommendations on actionable next steps to decrease the employee turnover rate.
 
+# Initial Data Model
+
+![image](https://github.com/DataGuti/Logistic-Regression-and-Machine-Learning-on-predicting-employees-turnover/assets/57073572/9e8cc882-1539-4cc4-a6af-92da16a42df1)
