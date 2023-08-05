@@ -6,6 +6,8 @@ This document will present a brief summary of the business case, an overview of 
   2) Logistic Regression Model
   3) Random Forest Model
 
+Finally, there's an **Executive Summary** available that summarizes the whole business case and solution to a single slide.
+
 ## Introducing the Business Case
 Salifort Motors' senior leadership team is concerned because of **how many employees are leaving the company** (for the time being they won't make a difference between employees who resigned and the ones who were let go). This affects the work culture of the company, morale of employees and ends on high administrative and financial costs (since replacing people involves recruiting, training and upskilling).
 
